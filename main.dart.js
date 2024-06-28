@@ -46078,8 +46078,10 @@ $S:254}
 A.oZ.prototype={
 ab(){return new A.S7(A.a1Z("yyyy-MM-dd",null).lI(new A.ag(Date.now(),!1)),B.i)}}
 A.S7.prototype={
-G(a){var s=null,r=t.p
-return A.a2t(s,s,A.cH(new A.bj(B.FT,A.cs(A.b([A.aX("Select Date Read",s,s,s,A.hO(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.bz,A.aMD(B.GV,B.nZ,new A.amG(this)),B.bz,A.eq(A.b([A.aX("Use today's date",s,s,s,s,s,s,s),A.cH(s,s,10),new A.xR(this.e,new A.amH(this),s)],r),B.S,B.E,B.K,s),A.cH(s,30,s),A.aA0("OK",new A.amI(a))],r),B.S,B.E,B.K),s),300,300),B.t,s,s,s,s,s)}}
+G(a){var s,r=this,q=null
+r.a.c.y=r.d
+s=t.p
+return A.a2t(q,q,A.cH(new A.bj(B.FT,A.cs(A.b([A.aX("Select Date Read",q,q,q,A.hO(q,q,q,q,q,q,q,q,q,q,q,20,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),B.bz,A.aMD(B.GV,B.nZ,new A.amG(r)),B.bz,A.eq(A.b([A.aX("Use today's date",q,q,q,q,q,q,q),A.cH(q,q,10),new A.xR(r.e,new A.amH(r),q)],s),B.S,B.E,B.K,q),A.cH(q,30,q),A.aA0("OK",new A.amI(a))],s),B.S,B.E,B.K),q),300,300),B.t,q,q,q,q,q)}}
 A.amG.prototype={
 $1(a){var s=this.a
 s.a9(new A.amF(s,a))},
